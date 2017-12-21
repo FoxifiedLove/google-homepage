@@ -69,13 +69,37 @@
 
  }
 
+ .nested-main {
+
+ }
  .doodle {
 
  }
  footer {
+   display:grid;
    grid-column: 1/13;
    grid-row: 12;
+   color: #666;
+   align-self: start;
+   padding: 18px;
+   border-top: 1px solid #e4e4e4;
+   background-color: #f2f2f2;
+ }
 
+ .nested-left {
+
+ }
+
+ .nested-right {
+
+
+ }
+ footer-top {
+   grid-column: 1/13;
+   grid-row: 11;
+   color: #666;
+   align-self: end;
+   padding: 18px;
    border-top: 1px solid #e4e4e4;
    background-color: #f2f2f2;
  }
