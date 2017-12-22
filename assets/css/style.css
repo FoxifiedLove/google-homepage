@@ -131,12 +131,13 @@
  }
 
  .left {
-   padding-left: 30px;
+   padding-left: 20px;
    color: rgba(0,0,0,.54);
  }
  .nested-left {
-   padding-left: 30px;
+   padding-left: 20px;
  }
+
 
  .nested-right {
    display: grid;
